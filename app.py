@@ -60,7 +60,6 @@ def update_ui():
 
 with gr.Blocks(
     title="🛡️ Content Moderation Environment – Team Blah2Blah",
-    theme=gr.themes.Soft(),
 ) as interface:
     gr.Markdown(
         "# 🛡️ Content Moderation Agentic Environment\n"
@@ -120,4 +119,4 @@ with gr.Blocks(
 
 
 if __name__ == "__main__":
-    interface.launch(server_name="0.0.0.0", server_port=7860)
+    interface.launch(server_name="0.0.0.0", server_port=7860, theme=gr.themes.Soft())
