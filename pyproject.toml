@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "content-moderation-env"
+version = "0.1.0"
+description = "A content moderation environment for OpenEnv."
+authors = [
+    { name = "Asmi K", email = "asmi114sonu@gmail.com" },
+    { name = "Vishal S", email = "gemsid2023@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "openenv-core>=0.1.0",
+    "pydantic>=2.0.0",
+    "openai>=1.0.0",
+    "fastapi>=0.100.0",
+    "uvicorn>=0.20.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["content_moderation_env", "data"]

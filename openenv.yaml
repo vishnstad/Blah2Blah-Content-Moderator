@@ -1,0 +1,10 @@
+spec_version: 1
+name: content_moderation_env
+description: "Content Moderation Environment by Team Blah2Blah"
+authors:
+  - Asmi K
+  - Vishal S
+type: space
+runtime: fastapi
+app: content_moderation_env.server.app:app
+port: 7860
