@@ -1,3 +1,12 @@
+---
+title: Blah2Blah Content Moderator
+emoji: 🛡️
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 7860
+---
+
 # Content Moderation Core Environment
 
 A custom Content Moderation RL Environment for the Meta PyTorch OpenEnv Hackathon.

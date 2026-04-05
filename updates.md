@@ -11,3 +11,4 @@
 - built `Dockerfile` referencing resource specs configured at a limit of 2vCPUs and 8GB of memory.
 - produced the primary `README.md` providing overview on all tasks, API usage, and configuration instructions.
 - All authors assigned as Asmi K and Vishal S for Team Blah2Blah.
+- Pushed initial project code to remote GitHub repository at `Blah2Blah-Content-Moderator`.
